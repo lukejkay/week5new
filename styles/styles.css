@@ -137,7 +137,18 @@ label:last-child {
 
 /* --------- definition list styles below here --------- */
 
-
+#content3 input {
+  display: inline-block;
+}
+#content3 label {
+  display: inline;
+  width: 200px;
+  background: #fff;
+  border-right: none;
+}
+#content3 #space-for-paragraphs {
+	display: block;
+}
 
 
 /* --------- Basic responsive breakpoint --------- */

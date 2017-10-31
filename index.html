@@ -23,14 +23,14 @@
       the 'checked' attribute determines which tab will show when the page loads
       the actual radio buttons for the input tag are hidden in the CSS
     -->
-    <input id="tab1" type="radio" name="tabs" checked>
+    <input id="tab1" type="radio" name="tabs">
     <!-- the *label* for the radio button forms the clickable tabs -->
     <label for="tab1"><i class="fa fa-code"></i><span>HTML5</span></label>
 
     <input id="tab2" type="radio" name="tabs">
     <label for="tab2"><i class="fa fa-hashtag"></i><span>CSS</span></label>
 
-    <input id="tab3" type="radio" name="tabs">
+    <input id="tab3" type="radio" name="tabs" checked>
     <label for="tab3"><i class="fa fa-bug"></i><span>JavaScript</span></label>
 
     <!-- content for tab 1: HTML5 -->
@@ -70,9 +70,14 @@
         <h2>JavaScript</h2>
       </header>
 
-      <dl>
-        <!-- 5 pairs of dt and dd tags -->
-      </dl>
+      <form id="sentence-form">
+        <label for="sentence">Type a sentence here</label>
+        <input id="sentence" type="text" placeholder="Type here....">
+        <input type="submit">
+      </form>
+      
+      <section id="space-for-paragraphs">
+      </section>
 
       <footer>
         <p>add a link to a JavaScript resource</p>
@@ -81,6 +86,7 @@
 
   </main>
 
+  <script src="scripts/scripts.js"></script>
   <!-- adapted from a CodePen by Thierry Koblentz: http://cssmojo.com/pure-css-tab-panel/ -->
 </body>
 </html>
