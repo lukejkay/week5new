@@ -131,11 +131,59 @@ label:last-child {
 
 /* --------- table styles below here --------- */
 
+tr:nth-child(even) {
+	color:#d9d9d9;
+}
+tr:nth-child(odd) {
+	color:#b3b3b3;
+}
+tr {
+	text-align:center;
+}
+th {
+	color:black;
+	border: 1px solid black;
+}
+table{
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+
 
 /* --------- unordered list styles below here --------- */
 
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	padding:20px 0;
+	border-top: 1px solid #b3b3b3;
+}
+
+li:last-child{
+	border-bottom: 1px solid #b3b3b3;
+}
+
+
+
+
 
 /* --------- definition list styles below here --------- */
+
+
+dt {
+	padding-top:20px;
+	font-weight:800;
+}
+
+dd {
+	padding:10px 0;
+	margin:0;
+}
 
 
 
